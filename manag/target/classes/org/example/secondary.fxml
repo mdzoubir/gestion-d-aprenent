@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane fx:controller="org.example.PrimaryController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="14.0" prefHeight="150.0" prefWidth="94.0">
+         <children>
+            <Label text="Nom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Prenom">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="28.0" text="Email">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="45.0" text="Telephone">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+            <Label layoutX="10.0" layoutY="63.0" text="id_specialiete">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="108.0" prefHeight="153.0" prefWidth="154.0">
+         <children>
+            <TextField fx:id="tfNom">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tfPrenom" layoutX="10.0" layoutY="10.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tfEmail" layoutX="10.0" layoutY="36.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tfTelephone" layoutX="10.0" layoutY="61.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="tfId_specialite" layoutX="10.0" layoutY="87.0">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
